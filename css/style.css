@@ -1,7 +1,8 @@
 body{
   font-family: 'Lato', sans-serif;
   font-family: 'Libre Franklin', sans-serif;
-  margin: 0;  
+  margin: 0;
+  padding: 0;
 }
 
 .topBar{
@@ -16,29 +17,91 @@ body{
   font-size: 14px;
 }
 
+.topBar{
+  display: none;
+}
+
+.visuallyhidden{
+  display: none;
+}
+
 .search{
   display: flex;
   align-items: center;
-  padding: 0 30px;
+  padding: 30px 30px;
+  background-color: #0f59c0de;
 }
 
-.search__logo img{
-  width: 150px;
+.main-logo{
+  width: 100%;
+  padding-right: 30px;
 }
 
 .search__logo{
-  flex: 1;
+  flex: 0.8;
+  padding-right: 30px;
 }
 
-.search__entry{
+.search__entry {
   flex: 2;
 }
 
-.search__quoteInfo{
+.search__entry form{
+  display: flex;
+}
+
+#search__entry__form input{
   flex: 1;
+}
+
+#search__entry__form button{
+  width: 80px;
+}
+
+
+.search__quoteInfo{
+  flex: 0.5;
   text-align: right;
+  padding-left: 30px;
 }
 
 .search__quoteInfo p:first-child{
   margin-bottom: 0;
 }
+
+.search__quoteInfo p{
+  margin: 8px 0;
+}
+
+.navigation{
+  background-color: #fff;
+}
+
+.navigation ul{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 30px 0;
+}
+.navigation ul li:nth-child(1n){
+  border-style: solid;
+  border-color: rgba(8, 8, 8, 0.5);
+  border-width: 0 0 0 1px;
+}
+
+.navigation ul li:first-of-type{
+  border-style: none;
+}
+
+.navigation ul li{
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.main-link{
+  text-decoration: none;
+  color: #000;
+}
+

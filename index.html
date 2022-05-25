@@ -14,63 +14,65 @@
     <header>
         <div class="topBar">
             <div class="topBar__info">
-                <p class="topBar__info--phone">+52 555555555</p>
-            </div>
-            <div class="topBar__info">
                 <p class="topBar__info--mail">contacto@labvoisier.com</p>
             </div>
             <div class="topBar__info">
-                <p class="topBar__info--companyName">LABVOISISER S.A. DE C.V.</p>
+                <p class="topBar__info--companyName">LAB VOISIER S.A. DE C.V.</p>
             </div>
         </div>
         <div class="search">
             <div class="search__logo">
-                <a href="./index.html"><img src="./img/logo_labvoisier3.svg" alt="logo"></a>
+                <a href="./index.html">
+                    <img class="main-logo" src="./img/logo_labvoisier3.svg" alt="large labvoisier logo">
+                </a>
             </div>
             <div class="search__entry">
-                <input type="search" id="input-search" name="input-search">
-                <button>Buscar</button>
+                <form id="search__entry__form" action="" method="post">
+                    <label for="input-search" class="visuallyhidden">Search: </label>
+                    <input type="search" id="input-search" name="input-search" placeholder="Nombre del producto">
+                    <button>Buscar</button>
+                </form>
             </div>
             <div class="search__quoteInfo">
-                <p>COTIZACIONES</p>
-                <p>+52 555555555</p>
+                <p>LAB VOISIER S.A. DE C.V.</p>
+                <p>contacto@labvoisier.com</p>
             </div>
         </div>
-        <nav>
+        <nav class="navigation">
             <ul>
-                <li><a href="./company.html">COMPAÑÍA</a></li>
-                <li><a href="./marcas.html">MARCAS</a></li>
-                <li><a href="./categorias.html">CATEGORÍAS</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
+                <li><a class="main-link" href="./company.html">COMPAÑÍA</a></li>
+                <li><a class="main-link" href="./marcas.html">MARCAS</a></li>
+                <li><a class="main-link" href="./categorias.html">CATEGORÍAS</a></li>
+                <li><a class="main-link" href="./contacto.html">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
     <div class="slide">
-        <img src="./img/analysis-g3588e50fa_1920.jpg" alt="slide 1" width="100%">
+        <img src="./img/analysis-g3588e50fa_1920.jpg" alt="slide 1" title="microscopio" width="100%">
     </div>
     <main>
         <h1>Labvoisier <span>Tu distribuidor de sustancias, reactivos, accesorios, consumibles y equipo para laboratorio</span></h1>
         <h2> Promociones por tiempo limitado</h2>
         <div class="producto">
-            <img src="./img/bd-vacutainer--conjunto-de-recoleccion-de-sangre-con-boton-pulsador-color-verde-caja-con-50-piezas-.png" alt="bd-vacutainer--conjunto-de-recoleccion-de-sangre-con-boton-pulsador-color-verde-caja-con-50-piezas">
+            <img src="./img/bd-vacutainer--conjunto-de-recoleccion-de-sangre-con-boton-pulsador-color-verde-caja-con-50-piezas-.png" alt="bd vacutainer recoleccion de sangre con boton pulsador color verde">
             <h3>Producto 1</h3>
             <p>Descripción del artículo</p>
             <button>Ver más</button>
         </div>
         <div class="producto">
-            <img src="./img/solucion-estandar-de-cloro--de-25-a-30-mg-l-como-cl2--nist---20-unidades-marca-hach.png" alt="solucion-estandar-de-cloro--de-25-a-30-mg-l-como-cl2--nist---20-unidades-marca-hach.png">
+            <img src="./img/solucion-estandar-de-cloro--de-25-a-30-mg-l-como-cl2--nist---20-unidades-marca-hach.png" alt="solucion estandar de cloro de 25 a 30 mg marca hach">
             <h3>Producto 2</h3>
             <p>Descripción del artículo</p>
             <button>Ver más</button>
         </div>
         <div class="producto">
-            <img src="./img/tubo-bd-microtainer-map-para-toma-de-muestra-y-recoleccion-de-sangre-color-lavanda-con-200-piezas-cat--365974.png" alt="tubo-bd-microtainer-map-para-toma-de-muestra-y-recoleccion-de-sangre-color-lavanda-con-200-piezas-cat--365974.png">
+            <img src="./img/tubo-bd-microtainer-map-para-toma-de-muestra-y-recoleccion-de-sangre-color-lavanda-con-200-piezas-cat--365974.png" alt="tubo bd microtainer para toma de muestra y recoleccion de sangre color lavanda cat 365974">
             <h3>Producto 3</h3>
             <p>Descripción del artículo</p>
             <button>Ver más</button>
         </div>
         <div class="producto">
-            <img src="./img/tubo-vacutainer-para-toma-de-muestra-y-recoleccion-de-sangre-color-rojo-con-100-piezas-cat-367812.png" alt="tubo-vacutainer-para-toma-de-muestra-y-recoleccion-de-sangre-color-rojo-con-100-piezas-cat-367812.png">
+            <img src="./img/tubo-vacutainer-para-toma-de-muestra-y-recoleccion-de-sangre-color-rojo-con-100-piezas-cat-367812.png" alt="tubo vacutainer para toma de muestra y recoleccion de sangre color rojo cat 367812">
             <h3>Producto 4</h3>
             <p>Descripción del artículo</p>
             <button>Ver más</button>
@@ -78,7 +80,7 @@
     </main>
     <footer>
         <div>
-            <img src="./img/logo_labvoisier3.svg" alt="logo" width="250">
+            <img src="./img/logo_labvoisier3.svg" alt="small labvoisier logo" width="250">
             <p>Venta de reactivos, consumibles y equipo especializado para laboratorio</p>
         </div>
         <div>
